@@ -6,7 +6,7 @@ Usage:
     var $actsAs = array(
         'Encryptable' => array(
             'fields' => array(
-                'EncyrptedModel' => array(
+                'EncryptedModel' => array(
                     'encrypted_field'
                 )
             )
