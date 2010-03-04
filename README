@@ -1,0 +1,16 @@
+Written for 1.3
+
+Encrypts data in a db. Encrypted fields should be binary type.
+
+Usage:
+    var $actsAs = array(
+        'Encryptable' => array(
+            'fields' => array(
+                'EncyrptedModel' => array(
+                    'encrypted_field'
+                )
+            )
+        )
+    );
+
+TODO - Recursing through associated models should be better.
